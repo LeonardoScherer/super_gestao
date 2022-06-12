@@ -8,5 +8,10 @@
 </head>
 <body>
     <h1>Bem vindo ao sistema de super gestão</h1>
+    <ul>
+        <li><a href="{{ route('site.home') }}">Home</a></li>
+        <li><a href="{{ route('site.sobre-nos') }}">Sobre nós</a></li>
+        <li><a href="{{ route('site.contato') }}">Contato</a></li>
+    </ul>
 </body>
 </html>
