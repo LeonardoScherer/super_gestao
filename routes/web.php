@@ -20,6 +20,6 @@ Route::get('/login', 'LoginController@login')->name('site.login');
 
 Route::prefix('/app')->group(function () {
     Route::get('/clientes', 'ClientesController@clientes')->name('app.clientes');
-    Route::get('/fornecedores', 'FornecedoresController@fornecedores')->name('app.fornecedores');
+    Route::get('/fornecedores', 'FornecedorController@index')->name('app.fornecedores');
     Route::get('/produto', 'ProdutosController@produtos')->name('app.produtos');
 });
